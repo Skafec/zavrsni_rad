@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Moj CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i,700" rel="stylesheet">
+    <title>Karlo Skafec - zavrsni rad</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png"  class="logo" alt="company logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Naslovnica <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projekti.html">Projekti</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sadrzaj-margin col-sm-8 offset-sm-2 razmak">
+        <h1>Zaposlite nas!</h1>
+        <p>Prilikom pregleda naših radova barem ste jednom pomislili “Wow, ovo baš meni treba!”?</p>
+        <p>Super, ispunite kontakt formu ispod te ćemo Vam se javiti u najkraćem mogućem roku.</p>
+        <p>Ako niste, znajte da bi Vam web stranica ili dobro osmišljen zivualni identitet mogli uvelike pomoći u poslovanju.</p>
+      </div>
+
+      <form class="forma" action="mailto:kaskafec@unin.hr" method="post" enctype="text/plain">
+        <div class="form-row">
+          <div class="col-sm-12">
+            <h2>O vama</h2>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <label for="validationDefault01">Puno ime</label>
+            <input type="text" name="ime" class="form-control" id="validationDefault01" placeholder="" required>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <label for="validationDefault02">E-mail adresa</label>
+            <input type="email" name="mail" class="form-control" id="validationDefault02" placeholder="" required>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <label for="validationDefault02">Broj mobitela</label>
+            <input type="text" name="mobitel" class="form-control" id="validationDefault02" placeholder="" required>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <label for="exampleFormControlTextarea1">Poruka</label>
+            <textarea class="form-control" name="poruka" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          </div>
+        <div class="form-row">
+          <div class="col-sm-12">
+            <h2>O projektu</h2>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <label for="exampleFormControlTextarea1">Kratki opis</label>
+            <textarea class="form-control" name="opisprojekta" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <div class="col-sm-12 mb-3">
+          <label for="exampleFormControlTextarea1">Vaši rokovi</label>
+          <textarea class="form-control" name="rok" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-sm-12">
+          <p>Vrsta projekta:</p>
+        </div>
+        <div class="form-check form-check-inline col-sm-3 offset-sm-1">
+          <input class="form-check-input" name="projekt" type="checkbox" id="inlineCheckbox1" value="fotografija">
+          <label class="form-check-label" for="inlineCheckbox1">Fotografija</label>
+        </div>
+        <div class="form-check form-check-inline col-sm-3 offset-sm-1">
+          <input class="form-check-input" name="projekt" type="checkbox" id="inlineCheckbox2" value="video">
+          <label class="form-check-label" for="inlineCheckbox2">Video</label>
+        </div>
+        <div class="form-check form-check-inline col-sm-3 offset-sm-1">
+          <input class="form-check-input" name="projekt" type="checkbox" id="inlineCheckbox3" value="dizajn">
+          <label class="form-check-label" for="inlineCheckbox3">Grafički dizajn</label>
+        </div>
+        <div class="form-check form-check-inline col-sm-3 offset-sm-1 mb-md-2">
+          <input class="form-check-input" name="projekt" type="checkbox" id="inlineCheckbox4" value="web">
+          <label class="form-check-label" for="inlineCheckbox4">Web</label>
+        </div>
+        <div class="form-check form-check-inline col-sm-3 offset-sm-1 mb-md-2">
+          <input class="form-check-input" name="projekt" type="checkbox" id="inlineCheckbox5" value="3d">
+          <label class="form-check-label" for="inlineCheckbox5">3D</label>
+        </div>
+        <div class="form-check form-check-inline col-sm-3 offset-sm-1 mb-md-2">
+          <input class="form-check-input" name="projekt" type="checkbox" id="inlineCheckbox6" value="ostalo">
+          <label class="form-check-label" for="inlineCheckbox6">Ostalo</label>
+        </div>
+        <label class="my-1 mr-2 col-sm-5 mb-2" for="inlineFormCustomSelectPref">Koji je vaš budžet?</label>
+        <select class="custom-select my-1 mr-sm-2 col-sm-5 mb-2 " name="budget" id="inlineFormCustomSelectPref">
+          <option selected>Odaberite...</option>
+          <option value="1000-2000kn">1.000 - 2.000 kn</option>
+          <option value="2000-5000kn">2.000 - 5.000 kn</option>
+          <option value="5000-15000kn">5.000 - 15.000 kn</option>
+          <option value="15000+kn">15.000 kn +</option>
+        </select>
+        </div>
+        <button class="btn btn-info mb-2" type="submit">Porazgovarajmo</button>
+      </form>
+
+      <div class="holder">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">?</button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Kod za realizaciju forme u Bootstrap - u 4:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <pre class="code-snippet">
+&lt;form class=&quot;forma&quot; action=&quot;mailto:kaskafec@unin.hr&quot; method=&quot;post&quot; enctype=&quot;text/plain&quot;&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;div class=&quot;col-sm-12&quot;&gt;
+      &lt;h2&gt;O vama&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-12 mb-3&quot;&gt;
+      &lt;label for=&quot;validationDefault01&quot;&gt;Puno ime&lt;/label&gt;
+      &lt;input type=&quot;text&quot; name=&quot;ime&quot; class=&quot;form-control&quot; id=&quot;validationDefault01&quot; placeholder=&quot;&quot; required&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-6 mb-3&quot;&gt;
+      &lt;label for=&quot;validationDefault02&quot;&gt;E-mail adresa&lt;/label&gt;
+      &lt;input type=&quot;email&quot; name=&quot;mail&quot; class=&quot;form-control&quot; id=&quot;validationDefault02&quot; placeholder=&quot;&quot; required&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-6 mb-3&quot;&gt;
+      &lt;label for=&quot;validationDefault02&quot;&gt;Broj mobitela&lt;/label&gt;
+      &lt;input type=&quot;text&quot; name=&quot;mobitel&quot; class=&quot;form-control&quot; id=&quot;validationDefault02&quot; placeholder=&quot;&quot; required&gt;
+    &lt;/div&gt;
+      &lt;div class=&quot;col-sm-12 mb-3&quot;&gt;
+      &lt;label for=&quot;exampleFormControlTextarea1&quot;&gt;Poruka&lt;/label&gt;
+      &lt;textarea class=&quot;form-control&quot; name=&quot;poruka&quot; id=&quot;exampleFormControlTextarea1&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;div class=&quot;col-sm-12&quot;&gt;
+      &lt;h2&gt;O projektu&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-12 mb-3&quot;&gt;
+      &lt;label for=&quot;exampleFormControlTextarea1&quot;&gt;Kratki opis&lt;/label&gt;
+      &lt;textarea class=&quot;form-control&quot; name=&quot;opisprojekta&quot; id=&quot;exampleFormControlTextarea1&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-12 mb-3&quot;&gt;
+      &lt;label for=&quot;exampleFormControlTextarea1&quot;&gt;Vaši rokovi&lt;/label&gt;
+      &lt;textarea class=&quot;form-control&quot; name=&quot;rok&quot; id=&quot;exampleFormControlTextarea1&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-12&quot;&gt;
+      &lt;p&gt;Vrsta projekta:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-check form-check-inline col-sm-3 offset-sm-1&quot;&gt;
+      &lt;input class=&quot;form-check-input&quot; name=&quot;projekt&quot; type=&quot;checkbox&quot; id=&quot;inlineCheckbox1&quot; value=&quot;fotografija&quot;&gt;
+      &lt;label class=&quot;form-check-label&quot; for=&quot;inlineCheckbox1&quot;&gt;Fotografija&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-check form-check-inline col-sm-3 offset-sm-1&quot;&gt;
+      &lt;input class=&quot;form-check-input&quot; name=&quot;projekt&quot; type=&quot;checkbox&quot; id=&quot;inlineCheckbox2&quot; value=&quot;video&quot;&gt;
+      &lt;label class=&quot;form-check-label&quot; for=&quot;inlineCheckbox2&quot;&gt;Video&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-check form-check-inline col-sm-3 offset-sm-1&quot;&gt;
+      &lt;input class=&quot;form-check-input&quot; name=&quot;projekt&quot; type=&quot;checkbox&quot; id=&quot;inlineCheckbox3&quot; value=&quot;dizajn&quot;&gt;
+      &lt;label class=&quot;form-check-label&quot; for=&quot;inlineCheckbox3&quot;&gt;Grafički dizajn&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-check form-check-inline col-sm-3 offset-sm-1 mb-md-2&quot;&gt;
+      &lt;input class=&quot;form-check-input&quot; name=&quot;projekt&quot; type=&quot;checkbox&quot; id=&quot;inlineCheckbox4&quot; value=&quot;web&quot;&gt;
+      &lt;label class=&quot;form-check-label&quot; for=&quot;inlineCheckbox4&quot;&gt;Web&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-check form-check-inline col-sm-3 offset-sm-1 mb-md-2&quot;&gt;
+      &lt;input class=&quot;form-check-input&quot; name=&quot;projekt&quot; type=&quot;checkbox&quot; id=&quot;inlineCheckbox5&quot; value=&quot;3d&quot;&gt;
+      &lt;label class=&quot;form-check-label&quot; for=&quot;inlineCheckbox5&quot;&gt;3D&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-check form-check-inline col-sm-3 offset-sm-1 mb-md-2&quot;&gt;
+      &lt;input class=&quot;form-check-input&quot; name=&quot;projekt&quot; type=&quot;checkbox&quot; id=&quot;inlineCheckbox6&quot; value=&quot;ostalo&quot;&gt;
+      &lt;label class=&quot;form-check-label&quot; for=&quot;inlineCheckbox6&quot;&gt;Ostalo&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;label class=&quot;my-1 mr-2 col-sm-5 mb-2&quot; for=&quot;inlineFormCustomSelectPref&quot;&gt;Koji je vaš budžet?&lt;/label&gt;
+    &lt;select class=&quot;custom-select my-1 mr-sm-2 col-sm-5 mb-2 &quot; name=&quot;budget&quot; id=&quot;inlineFormCustomSelectPref&quot;&gt;
+      &lt;option selected&gt;Odaberite...&lt;/option&gt;
+      &lt;option value=&quot;1000-2000kn&quot;&gt;1.000 - 2.000 kn&lt;/option&gt;
+      &lt;option value=&quot;2000-5000kn&quot;&gt;2.000 - 5.000 kn&lt;/option&gt;
+      &lt;option value=&quot;5000-15000kn&quot;&gt;5.000 - 15.000 kn&lt;/option&gt;
+      &lt;option value=&quot;15000+kn&quot;&gt;15.000 kn +&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-info mb-2&quot; type=&quot;submit&quot;&gt;Porazgovarajmo&lt;/button&gt;
+&lt;/form&gt;
+                </pre>
+                <p>Detaljniji pregled koda ostvaruje se desnim klikom te Inspect</p>
+                <p>Pregled koda napravljen pomoću Modal Bootstrap 4 komponente</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <footer>
+        <div class="footer">
+          <a href="index.html"><img src="img/logo.png" class="logo" alt="Company logo footer"></a>
+          <h2>Karlo Skafec - zavrsni rad</h2>
+          <p>Svi radovi na stranici nisu autorski te su korišteni u svrhu prezentiranja Bootstrap razvojnog okvira</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
